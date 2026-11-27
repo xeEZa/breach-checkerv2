@@ -3,6 +3,7 @@ docker inspect --format '{{json .Config.Labels}}' miron-rokita-frontend:v1
 {"autor":"Miron Rokita,","data":"2026-10-14","maintainer":"miron.rokita@example.com,"}
 
 PS D:\PolitechnikaPoznanska\MetodyWirtualizacji\breach-checker> docker history miron-rokita-frontend:v1
+
 IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT
 f4e61370457c   11 minutes ago   EXPOSE [80/tcp]                                 0B        buildkit.dockerfile.v0
 <missing>      11 minutes ago   RUN /bin/sh -c htmlhint /usr/share/nginx/htm…   4.1kB     buildkit.dockerfile.v0
