@@ -1,4 +1,4 @@
-##zad1
+zad1
 docker inspect --format '{{json .Config.Labels}}' miron-rokita-frontend:v1
 {"autor":"Miron Rokita,","data":"2026-10-14","maintainer":"miron.rokita@example.com,"}
 
@@ -30,3 +30,22 @@ f4e61370457c   11 minutes ago   EXPOSE [80/tcp]                                 
 <missing>      3 days ago       LABEL maintainer=NGINX Docker Maintainers <d…   0B        buildkit.dockerfile.v0
 <missing>      3 weeks ago      CMD ["/bin/sh"]                                 0B        buildkit.dockerfile.v0
 <missing>      3 weeks ago      ADD alpine-minirootfs-3.24.4-x86_64.tar.gz /…   9.09MB    buildkit.dockerfile.v0
+
+
+zad2
+Fri Nov 27 01:47:09 UTC 2026
+
+
+root   /usr/share/nginx/html
+
+
+
+PS D:\PolitechnikaPoznanska\MetodyWirtualizacji\breach-checker> docker exec zad4 ls /usr/share/nginx/
+html
+index.html
+script.js
+style.css
+PS D:\PolitechnikaPoznanska\MetodyWirtualizacji\breach-checker> docker exec zad4 ls /usr/share/nginx/html
+50x.html
+build.txt
+index.html
